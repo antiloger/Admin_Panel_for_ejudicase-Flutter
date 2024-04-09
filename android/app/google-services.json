@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "97889853694",
+    "project_id": "lawyerapp-aa1ae",
+    "storage_bucket": "lawyerapp-aa1ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97889853694:android:b694affb3121dd361205af",
+        "android_client_info": {
+          "package_name": "com.example.mapp_module"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "97889853694-ob3bnejrcq31n8rlkr7l821mqvqtdlgq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mapp_module",
+            "certificate_hash": "1ec282d28d3982f3e0d41d039ba43f30bce8e158"
+          }
+        },
+        {
+          "client_id": "97889853694-07a5ou61kkhc4n305rsvurgf4dk0op5h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYh6-3D7E671Dlh-JtV3g2WVcopadDpwM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "97889853694-07a5ou61kkhc4n305rsvurgf4dk0op5h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "97889853694-5ss1ra2cpc5c8v9m54c1p4v6o61qk0t3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.mappModule"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97889853694:android:f37e019c77e3184d1205af",
+        "android_client_info": {
+          "package_name": "com.example.pone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "97889853694-07a5ou61kkhc4n305rsvurgf4dk0op5h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYh6-3D7E671Dlh-JtV3g2WVcopadDpwM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "97889853694-07a5ou61kkhc4n305rsvurgf4dk0op5h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "97889853694-5ss1ra2cpc5c8v9m54c1p4v6o61qk0t3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.mappModule"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

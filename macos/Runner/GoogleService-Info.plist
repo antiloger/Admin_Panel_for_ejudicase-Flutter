@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>97889853694-rombdogtsutb1pj60tqr3habb1d4bruk.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.97889853694-rombdogtsutb1pj60tqr3habb1d4bruk</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>97889853694-ob3bnejrcq31n8rlkr7l821mqvqtdlgq.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAUbjX-Ih5JlYFj10Mu593aXZSOajbfDvM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>97889853694</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.pone.RunnerTests</string>
+	<key>PROJECT_ID</key>
+	<string>lawyerapp-aa1ae</string>
+	<key>STORAGE_BUCKET</key>
+	<string>lawyerapp-aa1ae.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:97889853694:ios:6dd7593763a7b51f1205af</string>
+</dict>
+</plist>
