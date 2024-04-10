@@ -2,8 +2,10 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import '../firebase_options.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
 final FirebaseManager fbAdmin = FirebaseManager();
+final AuthManager authAdmin = AuthManager();
 
 class FirebaseManager {
   static FirebaseFirestore db =
@@ -90,5 +92,30 @@ class FirebaseManager {
 
       throw e; // Rethrowing the error for caller to handle
     }
+  }
+}
+
+class AuthManager {
+  static FirebaseAuth fbAuth = FirebaseAuth.instance;
+
+  Future<User?> signInUser(
+      {required String emailAddr, required String Passwd}) async {
+    try {
+      final credential = await fbAuth.signInWithEmailAndPassword(
+          email: emailAddr, password: Passwd);
+      final User? user = credential.user;
+      return user;
+    } on FirebaseAuthException catch (e) {
+      if (e.code == 'user-not-found') {
+        print('No user found for that email.');
+      } else if (e.code == 'wrong-password') {
+        print('Wrong password provided for that user.');
+      }
+    }
+    return null;
+  }
+
+  Future<void> signOutUser() async {
+    await fbAuth.signOut();
   }
 }

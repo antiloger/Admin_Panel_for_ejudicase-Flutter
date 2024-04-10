@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pone/Util/dbManager.dart';
+import 'package:pone/pages/admin_login.dart';
 import 'pages/adminhome.dart';
 
 void main() async {
@@ -13,8 +14,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: AdminHome(),
+    return MaterialApp(
+      home: AdminLogin(),
       debugShowCheckedModeBanner: false,
     );
   }
